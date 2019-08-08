@@ -1,0 +1,37 @@
+$(document).ready(function(){
+    $('#pbtn').click(function(){
+        $('#eCard').hide();
+        $('#addCard').hide();
+        $('#pCard').show();
+    });
+    $('#pnext').click(function(){
+        $('#eCard').show();
+        $('#addCard').hide();
+        $('#pCard').hide();
+    });
+    $('#ebtn').click(function(){
+        $('#eCard').show();
+        $('#addCard').hide();
+        $('#pCard').hide();
+    });
+    $('#addbtn').click(function(){
+        $('#eCard').hide();
+        $('#addCard').show();
+        $('#pCard').hide();
+    });
+    $('#enext').click(function(){
+        $('#eCard').hide();
+        $('#addCard').show();
+        $('#pCard').hide();
+    });
+    $('#eback').click(function(){
+        $('#eCard').hide();
+        $('#addCard').hide();
+        $('#pCard').show();
+    });
+    $('#addback').click(function(){
+        $('#eCard').show();
+        $('#addCard').hide();
+        $('#pCard').hide();
+    });
+});
