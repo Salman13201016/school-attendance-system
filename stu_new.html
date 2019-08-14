@@ -464,13 +464,13 @@
                                                 <div class="col-sm-6 mb-3 mb-sm-0">
                                                     <label for="exampleStudentgender">Gender (student)</label>
                                                     <select class="form-control " name="gender" id="exampleStudentgender">
-                                                        <option value="hidden">Select Your Gender</option>
-                                                        <option>male</option>
-                                                        <option>female</option>
+                                                        <option value="">Select Your Gender</option>
+                                                        <option value="0">male</option>
+                                                        <option value="1">female</option>
                                                     </select>
                                                 </div>
                                             </div>
-                                            <a href="#pnext" class="btn btn-primary btn-user btn-block" id="pnext">
+                                            <a href="#pnext" class="btn btn-primary btn-user btn-block" id="pnext" disabled=true>
                                                 Next
                                             </a>
                                             <hr>
@@ -497,26 +497,26 @@
                                                 <div class="col-sm-6 mb-3 mb-sm-0">
                                                     <label for="exampleFirstName">Class</label>
                                                     <select class="form-control " name="class" id="exampleClass">
-                                                        <option value="hidden">Select Your Class</option>
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>6</option>
-                                                        <option>7</option>
-                                                        <option>8</option>
-                                                        <option>9</option>
-                                                        <option>10</option>
+                                                        <option value="">Select Your Class</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">6</option>
+                                                        <option value="6">7</option>
+                                                        <option value="7">8</option>
+                                                        <option value="8">9</option>
+                                                        <option value="9">10</option>
                                                     </select>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <label for="exampleSection">Section</label>
                                                     <select class="form-control" name="section" id="exampleSection">
-                                                        <option>Select Your Section</option>
-                                                        <option>A</option>
-                                                        <option>B</option>
-                                                        <option>C</option>
-                                                        <option>D</option>
+                                                        <option value="">Select Your Section</option>
+                                                        <option value="0">A</option>
+                                                        <option value="1">B</option>
+                                                        <option value="2">C</option>
+                                                        <option value="3">D</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -524,18 +524,18 @@
                                                 <div class="col-sm-6 mb-3 mb-sm-0">
                                                     <label for="exampleGroup">Group</label>
                                                     <select class="form-control" name="group" id="exampleGroup">
-                                                        <option>Select Your Group</option>
-                                                        <option>Science</option>
-                                                        <option>Commerce</option>
-                                                        <option>Arts</option>
+                                                        <option value="">Select Your Group</option>
+                                                        <option value="0">Science</option>
+                                                        <option value="1">Commerce</option>
+                                                        <option value="2">Arts</option>
                                                     </select>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <label for="exampleShift">Shift</label>
                                                     <select class="form-control" name="shift" id="exampleShift">
-                                                        <option>Select Your Shift</option>
-                                                        <option>Morning</option>
-                                                        <option>Day</option>
+                                                        <option value="">Select Your Shift</option>
+                                                        <option value="0">Morning</option>
+                                                        <option value="1">Day</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -612,9 +612,9 @@
                                                         id="exampleVillage" name="village" placeholder="village">
                                                 </div>
                                                 <div class="col-sm-6">
-                                                    <label for="examplePostOffice">Post Office</label>
+                                                    <label for="exampleVPostOffice">Post Office</label>
                                                     <input type="text" class="form-control form-control-user"
-                                                        id="examplePostOffice" name="poffice" placeholder="Post Office">
+                                                        id="exampleVPostOffice" name="poffice" placeholder="Post Office">
                                                 </div>
                                             </div>
                                             <div class="form-group row">
@@ -633,6 +633,9 @@
                                             </div>
                                             <a href="#addback" class="btn btn-danger btn-user btn-block" id="addback">
                                                 Back
+                                            </a>
+                                            <a href="#submit" class="btn btn-primary btn-user btn-block" id="stusubmit">
+                                                Submit
                                             </a>
                                             <hr>
                                         </form>
